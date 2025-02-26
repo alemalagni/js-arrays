@@ -22,9 +22,10 @@ const lastTeacher = teachers.pop();
 const firstTeacher = teachers.shift();
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-teachers.unshift('Vanessa')
+teachers.push('Vanessa')
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+teachers.unshift('Sarah')
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
